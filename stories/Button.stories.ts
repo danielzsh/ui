@@ -48,3 +48,11 @@ export const Small: Story = {
     label: 'Button',
   },
 };
+
+export const Warning: Story = {
+  args: {
+    label: 'Button',
+    primary: true,
+    backgroundColor: 'red',
+  },
+};
